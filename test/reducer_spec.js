@@ -19,7 +19,7 @@ describe('reducer', () => {
 
     expect(nextState).to.eq(fromJS({
       vote: {
-        pair: ['Trainspoting', '28 Days Later'],
+        pair: ['Trainspotting', '28 Days Later'],
         tally: {Trainspotting: 1}
       }
     }));
@@ -31,7 +31,7 @@ describe('reducer', () => {
       type: 'SET_STATE',
       state: {
         vote: {
-          pair: ['Trainspoting', '28 Days Later'],
+          pair: ['Trainspotting', '28 Days Later'],
           tally: {Trainspotting: 1}
         }
       }
